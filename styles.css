@@ -1,5 +1,6 @@
 html, body {
     background-color: #e8e4d8 !important;
+        scroll-behavior: smooth;
 }
 
 .cover-photo {
@@ -49,13 +50,23 @@ a:hover {
     color: blanchedalmond;
 }
 
+
+
 .shortcut-text {
     padding-top: 3vw;
+}
+
+.shortcut-text > p {
+    margin-top: 1vh;
 }
 
 .about {
     margin-top: 10vh;
     margin-bottom: 10vh;
+}
+.links > a {
+    color: black;
+    margin-right: 3vw;
 }
 
 .about > h3 {
@@ -64,4 +75,30 @@ a:hover {
 
 .about > p {
     font-size: 1.5rem;
+}
+
+.skills {
+    margin-bottom: 10vh;
+}
+
+.skills > h3 {
+    font-size: 4rem;
+}
+.skill-item> h4 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.skill-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-item {
+    margin-top: 5vh;
+    font-size: 1.5rem;
+}
+
+.projects > h3 {
+    font-size: 4rem;
 }
